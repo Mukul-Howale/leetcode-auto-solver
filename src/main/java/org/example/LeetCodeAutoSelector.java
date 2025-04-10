@@ -10,7 +10,7 @@ import java.util.Set;
 public class LeetCodeAutoSelector {
     private static final String GRAPHQL_URL = "https://leetcode.com/graphql";
     private static final OkHttpClient client = new OkHttpClient();
-    private static final String SOLVED_FILE = "solved_problems.txt";
+    private static final String SOLVED_FILE = "src/main/java/org/example/solved_problems.txt";
 
     public static LeetCodeQuestion autoSelect() throws Exception {
         Set<String> solved = loadSolvedProblems();
