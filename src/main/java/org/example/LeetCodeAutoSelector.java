@@ -45,8 +45,11 @@ public class LeetCodeAutoSelector {
         }""";
 
         JSONObject data = runGraphQLQuery(query);
-        JSONObject q = data.getJSONObject("randomQuestion");
+        JSONObject q = data.optJSONObject("randomQuestion");
 
+        if (q == null) {
+            throw new RuntimeException("❌ Failed to fetch randomQuestion: returned null.");
+        }
         return new LeetCodeQuestion(
                 q.getString("title"),
                 q.getString("titleSlug"),
