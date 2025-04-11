@@ -44,6 +44,7 @@ public class LeetCodeAutoSelector {
           }
         }""";
 
+        
         JSONObject data = runGraphQLQuery(query);
         JSONObject q = data.optJSONObject("randomQuestion");
 
