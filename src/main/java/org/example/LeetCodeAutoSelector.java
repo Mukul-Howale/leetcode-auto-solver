@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class LeetCodeAutoSelector {
-    private static final String GRAPHQL_URL = "https://leetcode.com/graphql/";
+    private static final String GRAPHQL_URL = "https://leetcode.com/graphql";
     private static final OkHttpClient client = new OkHttpClient();
     private static final String SOLVED_FILE = "src/main/java/org/example/solved_problems.txt";
 
