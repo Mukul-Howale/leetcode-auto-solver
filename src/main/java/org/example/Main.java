@@ -12,6 +12,8 @@ public class Main {
                     selected.url()
             );
 
+            System.out.println(solution);
+
             // Submit to LeetCode
             LeetCodeAutoSubmitter.submitCode(selected.title_slug(), solution);
         } catch (Exception e) {
