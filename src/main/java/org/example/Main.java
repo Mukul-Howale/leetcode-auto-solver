@@ -8,12 +8,12 @@ public class Main {
 
             // Generate code
             String solution = AIJavaCodeGenerator.generateCode(
-                    selected.title(),
-                    "https://leetcode.com/problems/" + selected.slug()
+                    selected.title_slug(),
+                    selected.url()
             );
 
             // Submit to LeetCode
-            LeetCodeAutoSubmitter.submitCode(selected.slug(), solution);
+            LeetCodeAutoSubmitter.submitCode(selected.title_slug(), solution);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

@@ -1,10 +1,4 @@
 package org.example;
 
-public record LeetCodeQuestion(String title, String slug, String difficulty, double acRate) {
-
-    public void print() {
-        System.out.printf("🔹 %s (%s) | AC Rate: %.2f%%\n🔗 https://leetcode.com/problems/%s\n\n",
-                title, difficulty, acRate, slug);
-    }
-}
+public record LeetCodeQuestion(String id, String frontend_id, String title, String title_slug, String url) { }
 
