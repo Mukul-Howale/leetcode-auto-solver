@@ -11,7 +11,7 @@ public class AIJavaCodeGenerator {
 
     public static String generateCode(String title, String link) throws IOException {
         Dotenv dotenv = Dotenv.load();
-        String apiKey = dotenv.get("LEETCODE_EMAIL");
+        String apiKey = dotenv.get("GEMINI_API_KEY");
         OkHttpClient client = new OkHttpClient();
 
         JSONObject requestBody = new JSONObject()
