@@ -15,7 +15,7 @@ public class LeetCodeAutoSelector {
     public static LeetCodeQuestion autoSelect() throws Exception {
         Set<String> solved = loadSolvedProblems();
         LeetCodeQuestion selected = null;
-        
+
         while (true) {
             LeetCodeQuestion candidate = getRandomProblem();
             if (!solved.contains(candidate.title())) {
