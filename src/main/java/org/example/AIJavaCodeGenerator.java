@@ -34,6 +34,7 @@ public class AIJavaCodeGenerator {
                 .addHeader("Content-Type", "application/json")
                 .build();
 
+        
         try (Response response = client.newCall(request).execute()) {
             String body = response.body().string();
             JSONObject json = new JSONObject(body);
