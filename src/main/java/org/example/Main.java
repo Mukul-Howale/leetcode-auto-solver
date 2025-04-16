@@ -15,8 +15,7 @@ public class Main {
             System.out.println(solution);
 
             // Submit to LeetCode
-            String response = LeetCodeAutoSubmitter.submitCode(selected.title_slug(), solution, "java");
-            System.out.println("🚀 Submission response: " + response);
+            LeetCodeAutoSubmitter.submitCode(selected.title_slug(), solution, "java");
 
         } catch (Exception e) {
             throw new RuntimeException(e);
