@@ -1,75 +1,67 @@
 package org.example;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.cdimascio.dotenv.Dotenv;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.time.Duration;
+import okhttp3.*;
+import org.json.JSONObject;
+import java.io.IOException;
 
 public class LeetCodeAutoSubmitter {
-    public static void submitCode(String slug, String javaCode) {
+    private static final OkHttpClient client = new OkHttpClient();
+    private static final String LEETCODE_BASE = "https://leetcode.com";
+
+    public static String submitCode(String titleSlug, String code, String language) throws IOException {
         Dotenv dotenv = Dotenv.load();
-        String email = dotenv.get("LEETCODE_EMAIL");
-        String password = dotenv.get("LEETCODE_PASSWORD");
+        String csrfToken = dotenv.get("X_CSRF_TOKEN");
+        String session = dotenv.get("LEETCODE_SESSION");
+
+        String url = LEETCODE_BASE + "/problems/" + titleSlug + "/submit/";
+
+        JSONObject payload = new JSONObject();
+        payload.put("titleSlug", titleSlug);
+        payload.put("question_id", getQuestionId(titleSlug, session));
+        payload.put("language", language);
+        payload.put("typed_code", code);
+
+        Request request = new Request.Builder()
+                .url(url)
+                .addHeader("Referer", LEETCODE_BASE + "/problems/" + titleSlug)
+                .addHeader("Origin", LEETCODE_BASE)
+                .addHeader("X-CSRFToken", csrfToken)
+                .addHeader("Cookie", "csrftoken=" + csrfToken + "; LEETCODE_SESSION=" + session + ";")
+                .post(RequestBody.create(payload.toString(), MediaType.get("application/json")))
+                .build();
 
 
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        OkHttpClient client = new OkHttpClient();
 
-        try {
-            // Login
-            driver.get("https://leetcode.com/accounts/login/");
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("id_login"))).sendKeys(email);
-            driver.findElement(By.id("id_password")).sendKeys(password);
-            driver.findElement(By.id("signin_btn")).click();
+        try (Response response = client.newCall(request).execute()) {
+            if (!response.isSuccessful()) {
+                throw new IOException("❌ Submission failed: " + response);
+            }
+            return response.body().string();
+        }
+    }
 
-            // Wait until login finishes and redirect to problem
-            wait.until(ExpectedConditions.urlContains("leetcode.com"));
+    private static String getQuestionId(String titleSlug, String sessionCookie) throws IOException {
+        String query = """
+        {
+          "query":"query getQuestionDetail($titleSlug: String!) {question(titleSlug: $titleSlug) { questionId }}",
+          "variables":{"titleSlug":"%s"}
+        }
+        """.formatted(titleSlug);
 
-            // Navigate to problem
-            String problemUrl = "https://leetcode.com/problems/" + slug;
-            driver.get(problemUrl);
+        Request request = new Request.Builder()
+                .url(LEETCODE_BASE + "/graphql")
+                .addHeader("Content-Type", "application/json")
+                .addHeader("Cookie", "LEETCODE_SESSION=" + sessionCookie + ";")
+                .post(RequestBody.create(query, MediaType.get("application/json")))
+                .build();
 
-            // Select language (Java)
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div#lang-select")));
-            driver.findElement(By.cssSelector("div#lang-select")).click();
-            wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Java']"))).click();
-
-            // Clear and paste AI-generated code
-            WebElement codeArea = wait.until(ExpectedConditions.presenceOfElementLocated(
-                    By.cssSelector("div.view-lines")
-            ));
-
-            // Focus editor and paste
-            Actions actions = new Actions(driver);
-            actions.click(codeArea).perform();
-
-            // Use clipboard-based paste to insert code
-            Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection(javaCode), null);
-            actions.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).perform();
-
-            // Click Submit
-            WebElement submitBtn = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("//button[contains(., 'Submit')]")
-            ));
-            submitBtn.click();
-
-            System.out.println("✅ Code submitted successfully!");
-
-        } catch (Exception e) {
-            System.out.println("❌ Submission failed: " + e.getMessage());
-        } finally {
-            // driver.quit(); // Optional: close browser
+        try (Response response = client.newCall(request).execute()) {
+            JSONObject json = new JSONObject(response.body().string());
+            return json.getJSONObject("data")
+                    .getJSONObject("question")
+                    .getString("questionId");
         }
     }
 }

@@ -42,7 +42,6 @@ public class LeetCodeAutoSelector {
             }
 
             if(response.body() == null) throw new NullPointerException("Response body is empty");
-            System.out.println(response.body());
             String responseBody = response.body().string();
             JSONObject jsonObject = new JSONObject(responseBody);
 
