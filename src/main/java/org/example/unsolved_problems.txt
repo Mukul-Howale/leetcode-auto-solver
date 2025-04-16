@@ -1,0 +1,5 @@
+smallest-number-with-all-set-bits,3676,Smallest Number With All Set Bits,https://leetcode.com/problems/smallest-number-with-all-set-bits/,2025-04-17T00:50:25.380453
+minimum-operations-to-collect-elements,3044,Minimum Operations to Collect Elements,https://leetcode.com/problems/minimum-operations-to-collect-elements/,2025-04-17T00:51:45.8751613
+minimum-number-of-swaps-to-make-the-binary-string-alternating,1994,Minimum Number of Swaps to Make the Binary String Alternating,https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/,2025-04-17T00:52:34.5522843
+minimum-element-after-replacement-with-digit-sum,3606,Minimum Element After Replacement With Digit Sum,https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/,2025-04-17T00:53:00.9158666
+count-pairs-of-connectable-servers-in-a-weighted-tree-network,3326,Count Pairs of Connectable Servers in a Weighted Tree Network,https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/,2025-04-17T00:53:07.9210568
