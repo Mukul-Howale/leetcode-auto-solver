@@ -68,13 +68,16 @@ public class AIJavaCodeGenerator {
     private static String fetchProblemDetails(String titleSlug) throws IOException {
         Dotenv dotenv = Dotenv.load();
         String session = dotenv.get("LEETCODE_SESSION");
+        String csrfToken = dotenv.get("X_CSRF_TOKEN");
 
         String graphqlUrl = LEETCODE_BASE + "/graphql";
 
         String query = String.format(
-                "{\"query\":\"query getQuestionDetail($titleSlug: String!) " +
-                        "{question(titleSlug: $titleSlug) {content exampleTestcases notes difficulty}}\",\"variables\":{\"titleSlug\":\"%s\"}}",
-                titleSlug);
+                "{\"query\":\"query getQuestionDetail($titleSlug: String!) { question(titleSlug: $titleSlug) { content exampleTestcases notes difficulty } }\","
+                        + "\"variables\":{\"titleSlug\":\"%s\"}}",
+                titleSlug
+        );
+
 
         RequestBody body = RequestBody.create(query, MediaType.parse("application/json"));
 
@@ -82,7 +85,10 @@ public class AIJavaCodeGenerator {
                 .url(graphqlUrl)
                 .post(body)
                 .addHeader("Content-Type", "application/json")
-                .addHeader("Cookie", "LEETCODE_SESSION=" + session)
+                .addHeader("x-csrftoken", csrfToken)
+                .addHeader("Cookie", "LEETCODE_SESSION=" + session + "; csrftoken=" + csrfToken)
+                .addHeader("Referer", LEETCODE_BASE + "/problems/" + titleSlug + "/")
+                .addHeader("Origin", LEETCODE_BASE)
                 .build();
 
         try (Response response = client.newCall(request).execute()) {

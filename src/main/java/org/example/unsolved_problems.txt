@@ -3,3 +3,9 @@ minimum-operations-to-collect-elements,3044,Minimum Operations to Collect Elemen
 minimum-number-of-swaps-to-make-the-binary-string-alternating,1994,Minimum Number of Swaps to Make the Binary String Alternating,https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/,2025-04-17T00:52:34.5522843
 minimum-element-after-replacement-with-digit-sum,3606,Minimum Element After Replacement With Digit Sum,https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/,2025-04-17T00:53:00.9158666
 count-pairs-of-connectable-servers-in-a-weighted-tree-network,3326,Count Pairs of Connectable Servers in a Weighted Tree Network,https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/,2025-04-17T00:53:07.9210568
+count-the-hidden-sequences,2249,Count the Hidden Sequences,https://leetcode.com/problems/count-the-hidden-sequences/,2025-04-17T01:21:50.8113043
+number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers,1699,Number of Ways Where Square of Number Is Equal to Product of Two Numbers,https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/,2025-04-17T01:21:57.0610076
+duplicate-zeros,1168,Duplicate Zeros,https://leetcode.com/problems/duplicate-zeros/,2025-04-17T01:22:45.0182621
+count-the-number-of-special-characters-i,3408,Count the Number of Special Characters I,https://leetcode.com/problems/count-the-number-of-special-characters-i/,2025-04-17T01:23:05.3465472
+finding-the-users-active-minutes,1945,Finding the Users Active Minutes,https://leetcode.com/problems/finding-the-users-active-minutes/,2025-04-17T01:23:17.1311554
+mean-of-array-after-removing-some-elements,1210,Mean of Array After Removing Some Elements,https://leetcode.com/problems/mean-of-array-after-removing-some-elements/,2025-04-17T01:23:35.7652725
