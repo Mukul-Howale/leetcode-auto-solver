@@ -24,7 +24,8 @@ public class AIJavaCodeGenerator {
                                                 .put("text", "Write clean Java code for the following LeetCode problem:\n"
                                                         + "Title: " + title + "\n"
                                                         + "Link: " + link + "\n"
-                                                        + "Include inline comments for clarity. Return ONLY the solution code without any markdown formatting or additional text.")
+                                                        + "Include inline comments for clarity. Return ONLY the solution code without any markdown formatting or additional text."
+                                                        + "Before writing the solution please check the current description, examples and constraints.")
                                         )
                                 )
                         )
