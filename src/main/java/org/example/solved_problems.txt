@@ -82,3 +82,27 @@ number-of-squareful-arrays,1038,Number of Squareful Arrays,https://leetcode.com/
 longest-happy-prefix,1508,Longest Happy Prefix,https://leetcode.com/problems/longest-happy-prefix/,2025-04-17T19:25:30.1090328
 find-and-replace-pattern,926,Find and Replace Pattern,https://leetcode.com/problems/find-and-replace-pattern/,2025-04-17T19:25:40.432491
 best-time-to-buy-and-sell-stock-with-transaction-fee,714,Best Time to Buy and Sell Stock with Transaction Fee,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/,2025-04-17T19:26:31.2845692
+unique-morse-code-words,822,Unique Morse Code Words,https://leetcode.com/problems/unique-morse-code-words/,2025-04-17T22:36:51.5178018
+minimum-number-of-operations-to-reinitialize-a-permutation,1935,Minimum Number of Operations to Reinitialize a Permutation,https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/,2025-04-17T22:37:54.0504754
+number-of-pairs-of-strings-with-concatenation-equal-to-target,2133,Number of Pairs of Strings With Concatenation Equal to Target,https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/,2025-04-17T22:38:01.1524204
+make-k-subarray-sums-equal,2670,Make K-Subarray Sums Equal,https://leetcode.com/problems/make-k-subarray-sums-equal/,2025-04-17T22:38:49.7496514
+longest-uploaded-prefix,2512,Longest Uploaded Prefix,https://leetcode.com/problems/longest-uploaded-prefix/,2025-04-17T22:39:08.1903833
+design-underground-system,1512,Design Underground System,https://leetcode.com/problems/design-underground-system/,2025-04-17T22:40:01.5081072
+course-schedule-iii,630,Course Schedule III,https://leetcode.com/problems/course-schedule-iii/,2025-04-17T22:40:17.0475707
+distribute-candies,575,Distribute Candies,https://leetcode.com/problems/distribute-candies/,2025-04-17T22:40:35.8538429
+k-highest-ranked-items-within-a-price-range,2250,K Highest Ranked Items Within a Price Range,https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/,2025-04-17T22:41:19.6737506
+two-city-scheduling,1095,Two City Scheduling,https://leetcode.com/problems/two-city-scheduling/,2025-04-17T22:41:26.0872144
+ipo,502,IPO,https://leetcode.com/problems/ipo/,2025-04-17T22:41:34.7347126
+longest-arithmetic-subsequence,1087,Longest Arithmetic Subsequence,https://leetcode.com/problems/longest-arithmetic-subsequence/,2025-04-17T22:41:44.9904828
+sum-of-matrix-after-queries,2838,Sum of Matrix After Queries,https://leetcode.com/problems/sum-of-matrix-after-queries/,2025-04-17T22:41:54.0261233
+sliding-window-median,480,Sliding Window Median,https://leetcode.com/problems/sliding-window-median/,2025-04-17T22:42:32.4385621
+find-all-groups-of-farmland,2103,Find All Groups of Farmland,https://leetcode.com/problems/find-all-groups-of-farmland/,2025-04-17T22:42:41.7482094
+smallest-subsequence-of-distinct-characters,1159,Smallest Subsequence of Distinct Characters,https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/,2025-04-17T22:42:49.4812647
+bitwise-and-of-numbers-range,201,Bitwise AND of Numbers Range,https://leetcode.com/problems/bitwise-and-of-numbers-range/,2025-04-17T22:42:55.3793904
+best-poker-hand,2433,Best Poker Hand,https://leetcode.com/problems/best-poker-hand/,2025-04-17T22:43:03.8428367
+lfu-cache,460,LFU Cache,https://leetcode.com/problems/lfu-cache/,2025-04-17T22:43:13.950181
+range-product-queries-of-powers,2529,Range Product Queries of Powers,https://leetcode.com/problems/range-product-queries-of-powers/,2025-04-17T22:43:23.6744264
+number-of-ways-to-divide-a-long-corridor,2251,Number of Ways to Divide a Long Corridor,https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/,2025-04-17T22:43:42.7607036
+count-number-of-possible-root-nodes,2652,Count Number of Possible Root Nodes,https://leetcode.com/problems/count-number-of-possible-root-nodes/,2025-04-17T22:43:58.35533
+maximum-swap,670,Maximum Swap,https://leetcode.com/problems/maximum-swap/,2025-04-17T22:44:24.0193058
+maximum-ice-cream-bars,1961,Maximum Ice Cream Bars,https://leetcode.com/problems/maximum-ice-cream-bars/,2025-04-17T22:44:34.1120418

@@ -49,3 +49,15 @@ maximum-difference-between-even-and-odd-frequency-ii,3761,Maximum Difference Bet
 digit-operations-to-make-two-integers-equal,3655,Digit Operations to Make Two Integers Equal,https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/,2025-04-17T19:25:46.6551976
 minimum-number-of-operations-to-make-word-k-periodic,3384,Minimum Number of Operations to Make Word K-Periodic,https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/,2025-04-17T19:26:03.7712984
 find-minimum-time-to-reach-last-room-i,3627,Find Minimum Time to Reach Last Room I,https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/,2025-04-17T19:26:25.0220512
+rename-columns,3068,Rename Columns,https://leetcode.com/problems/rename-columns/,2025-04-17T22:36:44.0668006
+daily-temperatures,739,Daily Temperatures,https://leetcode.com/problems/daily-temperatures/,2025-04-17T22:36:57.3251846
+smallest-substring-with-identical-characters-ii,3706,Smallest Substring With Identical Characters II,https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/,2025-04-17T22:37:21.7095194
+maximize-consecutive-elements-in-an-array-after-modification,3298,Maximize Consecutive Elements in an Array After Modification,https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/,2025-04-17T22:37:44.023319
+beautiful-towers-ii,3113,Beautiful Towers II,https://leetcode.com/problems/beautiful-towers-ii/,2025-04-17T22:38:07.7429081
+minimum-number-of-work-sessions-to-finish-the-tasks,2114,Minimum Number of Work Sessions to Finish the Tasks,https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/,2025-04-17T22:38:39.1069113
+minimum-number-of-operations-to-sort-a-binary-tree-by-level,2558,Minimum Number of Operations to Sort a Binary Tree by Level,https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/,2025-04-17T22:39:42.4178981
+divide-array-into-arrays-with-max-difference,3241,Divide Array Into Arrays With Max Difference,https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/,2025-04-17T22:40:07.9799544
+string-without-aaa-or-bbb,1026,String Without AAA or BBB,https://leetcode.com/problems/string-without-aaa-or-bbb/,2025-04-17T22:40:27.8308756
+earliest-second-to-mark-indices-ii,3289,Earliest Second to Mark Indices II,https://leetcode.com/problems/earliest-second-to-mark-indices-ii/,2025-04-17T22:40:57.7337314
+sum-of-squares-of-special-elements,2844,Sum of Squares of Special Elements ,https://leetcode.com/problems/sum-of-squares-of-special-elements/,2025-04-17T22:43:47.3284396
+find-the-minimum-cost-array-permutation,3431,Find the Minimum Cost Array Permutation,https://leetcode.com/problems/find-the-minimum-cost-array-permutation/,2025-04-17T22:44:15.1540541
