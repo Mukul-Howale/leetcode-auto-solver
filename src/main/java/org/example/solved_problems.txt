@@ -46,3 +46,39 @@ maximum-score-of-a-node-sequence,2353,Maximum Score of a Node Sequence,https://l
 merge-sorted-array,88,Merge Sorted Array,https://leetcode.com/problems/merge-sorted-array/,2025-04-17T12:28:15.6574936
 max-consecutive-ones-iii,1046,Max Consecutive Ones III,https://leetcode.com/problems/max-consecutive-ones-iii/,2025-04-17T12:28:22.5739993
 maximum-subarray-min-product,1985,Maximum Subarray Min-Product,https://leetcode.com/problems/maximum-subarray-min-product/,2025-04-17T12:28:32.7174225
+odd-even-jump,1017,Odd Even Jump,https://leetcode.com/problems/odd-even-jump/,2025-04-17T19:13:22.290929
+find-the-grid-of-region-average,3272,Find the Grid of Region Average,https://leetcode.com/problems/find-the-grid-of-region-average/,2025-04-17T19:13:32.7073493
+serialize-and-deserialize-bst,449,Serialize and Deserialize BST,https://leetcode.com/problems/serialize-and-deserialize-bst/,2025-04-17T19:13:41.9658697
+minimum-rounds-to-complete-all-tasks,2362,Minimum Rounds to Complete All Tasks,https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/,2025-04-17T19:13:50.6272684
+k-similar-strings,884,K-Similar Strings,https://leetcode.com/problems/k-similar-strings/,2025-04-17T19:14:41.8898935
+detonate-the-maximum-bombs,2206,Detonate the Maximum Bombs,https://leetcode.com/problems/detonate-the-maximum-bombs/,2025-04-17T19:14:55.1982225
+binary-tree-zigzag-level-order-traversal,103,Binary Tree Zigzag Level Order Traversal,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/,2025-04-17T19:15:46.2264263
+find-the-prefix-common-array-of-two-arrays,2766,Find the Prefix Common Array of Two Arrays,https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/,2025-04-17T19:15:53.9464564
+two-best-non-overlapping-events,2164,Two Best Non-Overlapping Events,https://leetcode.com/problems/two-best-non-overlapping-events/,2025-04-17T19:16:41.4268964
+check-if-it-is-a-straight-line,1349,Check If It Is a Straight Line,https://leetcode.com/problems/check-if-it-is-a-straight-line/,2025-04-17T19:16:50.33875
+longest-arithmetic-subsequence-of-given-difference,1330,Longest Arithmetic Subsequence of Given Difference,https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/,2025-04-17T19:17:25.1832363
+calculate-money-in-leetcode-bank,1817,Calculate Money in Leetcode Bank,https://leetcode.com/problems/calculate-money-in-leetcode-bank/,2025-04-17T19:17:34.4788572
+maximum-width-ramp,1002,Maximum Width Ramp,https://leetcode.com/problems/maximum-width-ramp/,2025-04-17T19:18:02.3193126
+maximum-running-time-of-n-computers,2263,Maximum Running Time of N Computers,https://leetcode.com/problems/maximum-running-time-of-n-computers/,2025-04-17T19:19:05.3869639
+most-profit-assigning-work,853,Most Profit Assigning Work,https://leetcode.com/problems/most-profit-assigning-work/,2025-04-17T19:19:50.3672294
+check-if-every-row-and-column-contains-all-numbers,2254,Check if Every Row and Column Contains All Numbers,https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/,2025-04-17T19:20:05.1792194
+minimum-domino-rotations-for-equal-row,1049,Minimum Domino Rotations For Equal Row,https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/,2025-04-17T19:20:12.3716848
+decremental-string-concatenation,2854,Decremental String Concatenation,https://leetcode.com/problems/decremental-string-concatenation/,2025-04-17T19:20:19.8524289
+two-out-of-three,2159,Two Out of Three,https://leetcode.com/problems/two-out-of-three/,2025-04-17T19:21:22.4919266
+k-th-smallest-prime-fraction,802,K-th Smallest Prime Fraction,https://leetcode.com/problems/k-th-smallest-prime-fraction/,2025-04-17T19:21:32.3000409
+k-inverse-pairs-array,629,K Inverse Pairs Array,https://leetcode.com/problems/k-inverse-pairs-array/,2025-04-17T19:21:43.2599534
+alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,1709,Alert Using Same Key-Card Three or More Times in a One Hour Period,https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/,2025-04-17T19:21:52.3317614
+word-break-ii,140,Word Break II,https://leetcode.com/problems/word-break-ii/,2025-04-17T19:22:22.6799038
+concatenation-of-consecutive-binary-numbers,1800,Concatenation of Consecutive Binary Numbers,https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/,2025-04-17T19:22:30.0435874
+replace-words,648,Replace Words,https://leetcode.com/problems/replace-words/,2025-04-17T19:22:45.0079572
+largest-divisible-subset,368,Largest Divisible Subset,https://leetcode.com/problems/largest-divisible-subset/,2025-04-17T19:23:03.2043271
+break-a-palindrome,1252,Break a Palindrome,https://leetcode.com/problems/break-a-palindrome/,2025-04-17T19:23:10.0198129
+design-browser-history,1582,Design Browser History,https://leetcode.com/problems/design-browser-history/,2025-04-17T19:23:32.9081719
+positions-of-large-groups,857,Positions of Large Groups,https://leetcode.com/problems/positions-of-large-groups/,2025-04-17T19:23:39.9196028
+number-of-different-integers-in-a-string,1933,Number of Different Integers in a String,https://leetcode.com/problems/number-of-different-integers-in-a-string/,2025-04-17T19:24:23.0513437
+partition-array-into-disjoint-intervals,951,Partition Array into Disjoint Intervals,https://leetcode.com/problems/partition-array-into-disjoint-intervals/,2025-04-17T19:24:42.780884
+maximum-population-year,1983,Maximum Population Year,https://leetcode.com/problems/maximum-population-year/,2025-04-17T19:24:52.0008797
+number-of-squareful-arrays,1038,Number of Squareful Arrays,https://leetcode.com/problems/number-of-squareful-arrays/,2025-04-17T19:25:11.8081304
+longest-happy-prefix,1508,Longest Happy Prefix,https://leetcode.com/problems/longest-happy-prefix/,2025-04-17T19:25:30.1090328
+find-and-replace-pattern,926,Find and Replace Pattern,https://leetcode.com/problems/find-and-replace-pattern/,2025-04-17T19:25:40.432491
+best-time-to-buy-and-sell-stock-with-transaction-fee,714,Best Time to Buy and Sell Stock with Transaction Fee,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/,2025-04-17T19:26:31.2845692

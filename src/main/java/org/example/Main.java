@@ -36,16 +36,6 @@ public class Main {
                         selected.url()
                 );
 
-                // Print the first few lines of the solution for verification
-                System.out.println("\nGenerated solution (first 5 lines):");
-                String[] lines = solution.split("\n", 6);
-                for (int i = 0; i < Math.min(5, lines.length); i++) {
-                    System.out.println(lines[i]);
-                }
-                if (lines.length > 5) {
-                    System.out.println("... (full solution has " + lines.length + " lines)");
-                }
-
                 // Submit and verify solution (with retries)
                 System.out.println("\nSubmitting solution to LeetCode...");
                 boolean isAccepted = LeetCodeSolutionVerifier.submitAndVerifySolution(

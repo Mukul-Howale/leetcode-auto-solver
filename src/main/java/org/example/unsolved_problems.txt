@@ -18,3 +18,34 @@ minimum-sum-of-values-by-dividing-array,3364,Minimum Sum of Values by Dividing A
 count-beautiful-substrings-ii,3208,Count Beautiful Substrings II,https://leetcode.com/problems/count-beautiful-substrings-ii/,2025-04-17T12:27:19.7269465
 largest-color-value-in-a-directed-graph,1986,Largest Color Value in a Directed Graph,https://leetcode.com/problems/largest-color-value-in-a-directed-graph/,2025-04-17T12:27:26.7059738
 combine-two-tables,175,Combine Two Tables,https://leetcode.com/problems/combine-two-tables/,2025-04-17T12:28:05.5214286
+count-substrings-that-satisfy-k-constraint-ii,3546,Count Substrings That Satisfy K-Constraint II,https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/,2025-04-17T19:13:55.8020685
+reachable-nodes-in-subdivided-graph,918,Reachable Nodes In Subdivided Graph,https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/,2025-04-17T19:14:22.6873196
+find-the-longest-equal-subarray,2832,Find the Longest Equal Subarray,https://leetcode.com/problems/find-the-longest-equal-subarray/,2025-04-17T19:14:33.7510527
+maximum-matching-of-players-with-trainers,2497,Maximum Matching of Players With Trainers,https://leetcode.com/problems/maximum-matching-of-players-with-trainers/,2025-04-17T19:14:46.6206814
+find-the-original-typed-string-ii,3618,Find the Original Typed String II,https://leetcode.com/problems/find-the-original-typed-string-ii/,2025-04-17T19:15:20.426651
+strange-printer,664,Strange Printer,https://leetcode.com/problems/strange-printer/,2025-04-17T19:15:26.7099003
+find-all-possible-stable-binary-arrays-ii,3407,Find All Possible Stable Binary Arrays II,https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/,2025-04-17T19:16:06.5259602
+steps-to-make-array-non-decreasing,2374,Steps to Make Array Non-decreasing,https://leetcode.com/problems/steps-to-make-array-non-decreasing/,2025-04-17T19:16:56.4998704
+minimize-the-maximum-adjacent-element-difference,3658,Minimize the Maximum Adjacent Element Difference,https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/,2025-04-17T19:17:15.486811
+apply-operations-to-maximize-score,3001,Apply Operations to Maximize Score,https://leetcode.com/problems/apply-operations-to-maximize-score/,2025-04-17T19:18:35.1669396
+lexicographically-smallest-generated-string,3770,Lexicographically Smallest Generated String,https://leetcode.com/problems/lexicographically-smallest-generated-string/,2025-04-17T19:18:56.9949628
+count-subtrees-with-max-distance-between-cities,1740,Count Subtrees With Max Distance Between Cities,https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/,2025-04-17T19:19:40.9751234
+peeking-iterator,284,Peeking Iterator,https://leetcode.com/problems/peeking-iterator/,2025-04-17T19:19:56.522487
+word-break-ii,140,Word Break II,https://leetcode.com/problems/word-break-ii/,2025-04-17T19:20:25.2176097
+minimum-array-changes-to-make-differences-equal,3498,Minimum Array Changes to Make Differences Equal,https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal/,2025-04-17T19:20:46.1607039
+shortest-distance-after-road-addition-queries-i,3517,Shortest Distance After Road Addition Queries I,https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/,2025-04-17T19:21:12.4237995
+moving-stones-until-consecutive,1103,Moving Stones Until Consecutive,https://leetcode.com/problems/moving-stones-until-consecutive/,2025-04-17T19:22:00.3077081
+univalued-binary-tree,1005,Univalued Binary Tree,https://leetcode.com/problems/univalued-binary-tree/,2025-04-17T19:22:05.5686791
+lexicographically-minimum-string-after-removing-stars,3445,Lexicographically Minimum String After Removing Stars,https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/,2025-04-17T19:22:15.6515726
+apply-operations-to-an-array,2551,Apply Operations to an Array,https://leetcode.com/problems/apply-operations-to-an-array/,2025-04-17T19:22:36.7271605
+minimum-cost-good-caption,3701,Minimum Cost Good Caption,https://leetcode.com/problems/minimum-cost-good-caption/,2025-04-17T19:22:54.9294474
+function-composition,2741,Function Composition,https://leetcode.com/problems/function-composition/,2025-04-17T19:23:20.5040945
+remove-linked-list-elements,203,Remove Linked List Elements,https://leetcode.com/problems/remove-linked-list-elements/,2025-04-17T19:23:25.8507061
+optimal-division,553,Optimal Division,https://leetcode.com/problems/optimal-division/,2025-04-17T19:23:45.6218146
+transform-to-chessboard,798,Transform to Chessboard,https://leetcode.com/problems/transform-to-chessboard/,2025-04-17T19:24:15.8928699
+longest-unequal-adjacent-groups-subsequence-i,3143,Longest Unequal Adjacent Groups Subsequence I,https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/,2025-04-17T19:24:35.5645075
+maximize-consecutive-elements-in-an-array-after-modification,3298,Maximize Consecutive Elements in an Array After Modification,https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/,2025-04-17T19:25:03.0039347
+maximum-difference-between-even-and-odd-frequency-ii,3761,Maximum Difference Between Even and Odd Frequency II,https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/,2025-04-17T19:25:24.0250318
+digit-operations-to-make-two-integers-equal,3655,Digit Operations to Make Two Integers Equal,https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/,2025-04-17T19:25:46.6551976
+minimum-number-of-operations-to-make-word-k-periodic,3384,Minimum Number of Operations to Make Word K-Periodic,https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/,2025-04-17T19:26:03.7712984
+find-minimum-time-to-reach-last-room-i,3627,Find Minimum Time to Reach Last Room I,https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/,2025-04-17T19:26:25.0220512

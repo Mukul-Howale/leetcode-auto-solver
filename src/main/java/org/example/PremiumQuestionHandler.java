@@ -15,7 +15,7 @@ public class PremiumQuestionHandler {
      * @param titleSlug The problem's title slug
      * @return true if the question is accessible (either free or premium with access)
      */
-    public static boolean isQuestionAccessible(String titleSlug) throws IOException {
+    public static boolean isQuestionAccessible(String titleSlug) {
         // First check if question is premium
         boolean isPremium = isPremiumQuestion(titleSlug);
 
@@ -28,7 +28,7 @@ public class PremiumQuestionHandler {
         return hasUserPremiumAccess();
     }
 
-    private static boolean isPremiumQuestion(String titleSlug) throws IOException {
+    private static boolean isPremiumQuestion(String titleSlug) {
         Dotenv dotenv = Dotenv.load();
         String session = dotenv.get("LEETCODE_SESSION");
 
@@ -68,7 +68,7 @@ public class PremiumQuestionHandler {
         }
     }
 
-    private static boolean hasUserPremiumAccess() throws IOException {
+    private static boolean hasUserPremiumAccess() {
         Dotenv dotenv = Dotenv.load();
         String session = dotenv.get("LEETCODE_SESSION");
 
