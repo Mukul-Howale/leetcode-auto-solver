@@ -33,3 +33,16 @@ top-k-frequent-words,692,Top K Frequent Words,https://leetcode.com/problems/top-
 palindrome-linked-list,234,Palindrome Linked List,https://leetcode.com/problems/palindrome-linked-list/,2025-04-17T01:23:53.9194148
 sum-of-even-numbers-after-queries,1027,Sum of Even Numbers After Queries,https://leetcode.com/problems/sum-of-even-numbers-after-queries/,2025-04-17T01:31:45.4035755
 construct-binary-search-tree-from-preorder-traversal,1050,Construct Binary Search Tree from Preorder Traversal,https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/,2025-04-17T01:34:36.587227
+longest-subarray-of-1s-after-deleting-one-element,1586,Longest Subarray of 1's After Deleting One Element,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/,2025-04-17T12:24:57.0791457
+count-number-of-texts,2348,Count Number of Texts,https://leetcode.com/problems/count-number-of-texts/,2025-04-17T12:25:21.7251975
+best-time-to-buy-and-sell-stock,121,Best Time to Buy and Sell Stock,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,2025-04-17T12:26:07.6945435
+reaching-points,796,Reaching Points,https://leetcode.com/problems/reaching-points/,2025-04-17T12:26:16.992856
+minimum-operations-to-make-the-array-increasing,1938,Minimum Operations to Make the Array Increasing,https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/,2025-04-17T12:26:22.9367633
+find-center-of-star-graph,1916,Find Center of Star Graph,https://leetcode.com/problems/find-center-of-star-graph/,2025-04-17T12:26:34.5928732
+maximum-number-of-events-that-can-be-attended,1478,Maximum Number of Events That Can Be Attended,https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/,2025-04-17T12:27:01.6968133
+increment-submatrices-by-one,2625,Increment Submatrices by One,https://leetcode.com/problems/increment-submatrices-by-one/,2025-04-17T12:27:35.8016921
+swapping-nodes-in-a-linked-list,528,Swapping Nodes in a Linked List,https://leetcode.com/problems/swapping-nodes-in-a-linked-list/,2025-04-17T12:27:45.2812599
+maximum-score-of-a-node-sequence,2353,Maximum Score of a Node Sequence,https://leetcode.com/problems/maximum-score-of-a-node-sequence/,2025-04-17T12:27:54.2566459
+merge-sorted-array,88,Merge Sorted Array,https://leetcode.com/problems/merge-sorted-array/,2025-04-17T12:28:15.6574936
+max-consecutive-ones-iii,1046,Max Consecutive Ones III,https://leetcode.com/problems/max-consecutive-ones-iii/,2025-04-17T12:28:22.5739993
+maximum-subarray-min-product,1985,Maximum Subarray Min-Product,https://leetcode.com/problems/maximum-subarray-min-product/,2025-04-17T12:28:32.7174225
