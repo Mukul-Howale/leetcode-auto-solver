@@ -110,3 +110,4 @@ largest-perimeter-triangle,1018,Largest Perimeter Triangle,https://leetcode.com/
 length-of-the-longest-alphabetical-continuous-substring,2492,Length of the Longest Alphabetical Continuous Substring,https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/,2025-04-18T12:49:22.6794704
 maximum-binary-string-after-change,1804,Maximum Binary String After Change,https://leetcode.com/problems/maximum-binary-string-after-change/,2025-04-18T12:49:45.6741102
 maximum-number-of-removable-characters,2027,Maximum Number of Removable Characters,https://leetcode.com/problems/maximum-number-of-removable-characters/,2025-04-18T12:49:54.8994996
+combination-sum-iii,216,Combination Sum III,https://leetcode.com/problems/combination-sum-iii/,2025-04-18T16:47:21.0164608

@@ -44,7 +44,7 @@ public class Main {
                         "java"
                 );
 
-                // Store the solution regardless of outcome
+                // Store the solved and unsolved questions
                 SolutionStorageManager.storeSolution(selected, isAccepted);
 
                 if (isAccepted) {

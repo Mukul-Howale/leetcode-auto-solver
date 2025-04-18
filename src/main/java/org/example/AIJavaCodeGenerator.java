@@ -65,7 +65,7 @@ public class AIJavaCodeGenerator {
     /**
      * Fetches problem description, examples, and constraints from LeetCode
      */
-    private static String fetchProblemDetails(String titleSlug) throws IOException {
+    private static String fetchProblemDetails(String titleSlug){
         Dotenv dotenv = Dotenv.load();
         String session = dotenv.get("LEETCODE_SESSION");
         String csrfToken = dotenv.get("X_CSRF_TOKEN");

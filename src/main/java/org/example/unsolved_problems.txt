@@ -68,3 +68,6 @@ smallest-value-after-replacing-with-sum-of-prime-factors,2595,Smallest Value Aft
 sort-characters-by-frequency,451,Sort Characters By Frequency,https://leetcode.com/problems/sort-characters-by-frequency/,2025-04-18T12:49:27.4264191
 find-subtree-sizes-after-changes,3576,Find Subtree Sizes After Changes,https://leetcode.com/problems/find-subtree-sizes-after-changes/,2025-04-18T12:50:11.5191546
 lexicographically-smallest-palindrome,2816,Lexicographically Smallest Palindrome,https://leetcode.com/problems/lexicographically-smallest-palindrome/,2025-04-18T12:50:16.3472876
+knight-dialer,972,Knight Dialer,https://leetcode.com/problems/knight-dialer/,2025-04-18T16:47:26.9327726
+minimum-time-to-visit-disappearing-nodes,3389,Minimum Time to Visit Disappearing Nodes,https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/,2025-04-18T16:47:45.0265452
+subarrays-distinct-element-sum-of-squares-i,3163,Subarrays Distinct Element Sum of Squares I,https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/,2025-04-18T16:47:54.7433402

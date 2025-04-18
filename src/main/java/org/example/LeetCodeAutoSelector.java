@@ -4,8 +4,7 @@ import okhttp3.*;
 import org.json.JSONObject;
 
 import java.io.*;
-import java.util.HashSet;
-import java.util.Set;
+
 
 public class LeetCodeAutoSelector {
     private static final String GRAPHQL_URL = "https://leetcode-api-pied.vercel.app/random";

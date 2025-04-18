@@ -17,12 +17,7 @@ public class PremiumQuestionHandler {
      */
     public static boolean isQuestionAccessible(String titleSlug) {
         // First check if question is premium
-        boolean isPremium = isPremiumQuestion(titleSlug);
-
-        if (!isPremium) {
-            // Not a premium question, so it's accessible
-            return true;
-        }
+        if (!isPremiumQuestion(titleSlug)) return true;
 
         // It's a premium question, check if user has premium access
         return hasUserPremiumAccess();
