@@ -106,3 +106,7 @@ number-of-ways-to-divide-a-long-corridor,2251,Number of Ways to Divide a Long Co
 count-number-of-possible-root-nodes,2652,Count Number of Possible Root Nodes,https://leetcode.com/problems/count-number-of-possible-root-nodes/,2025-04-17T22:43:58.35533
 maximum-swap,670,Maximum Swap,https://leetcode.com/problems/maximum-swap/,2025-04-17T22:44:24.0193058
 maximum-ice-cream-bars,1961,Maximum Ice Cream Bars,https://leetcode.com/problems/maximum-ice-cream-bars/,2025-04-17T22:44:34.1120418
+largest-perimeter-triangle,1018,Largest Perimeter Triangle,https://leetcode.com/problems/largest-perimeter-triangle/,2025-04-18T12:47:57.8790168
+length-of-the-longest-alphabetical-continuous-substring,2492,Length of the Longest Alphabetical Continuous Substring,https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/,2025-04-18T12:49:22.6794704
+maximum-binary-string-after-change,1804,Maximum Binary String After Change,https://leetcode.com/problems/maximum-binary-string-after-change/,2025-04-18T12:49:45.6741102
+maximum-number-of-removable-characters,2027,Maximum Number of Removable Characters,https://leetcode.com/problems/maximum-number-of-removable-characters/,2025-04-18T12:49:54.8994996

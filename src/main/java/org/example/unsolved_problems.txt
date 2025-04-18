@@ -61,3 +61,10 @@ string-without-aaa-or-bbb,1026,String Without AAA or BBB,https://leetcode.com/pr
 earliest-second-to-mark-indices-ii,3289,Earliest Second to Mark Indices II,https://leetcode.com/problems/earliest-second-to-mark-indices-ii/,2025-04-17T22:40:57.7337314
 sum-of-squares-of-special-elements,2844,Sum of Squares of Special Elements ,https://leetcode.com/problems/sum-of-squares-of-special-elements/,2025-04-17T22:43:47.3284396
 find-the-minimum-cost-array-permutation,3431,Find the Minimum Cost Array Permutation,https://leetcode.com/problems/find-the-minimum-cost-array-permutation/,2025-04-17T22:44:15.1540541
+word-ladder-ii,126,Word Ladder II,https://leetcode.com/problems/word-ladder-ii/,2025-04-18T12:48:35.8978749
+k-th-nearest-obstacle-queries,3495,K-th Nearest Obstacle Queries,https://leetcode.com/problems/k-th-nearest-obstacle-queries/,2025-04-18T12:49:02.6834921
+count-subarrays-of-length-three-with-a-condition,3685,Count Subarrays of Length Three With a Condition,https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/,2025-04-18T12:49:11.2834748
+smallest-value-after-replacing-with-sum-of-prime-factors,2595,Smallest Value After Replacing With Sum of Prime Factors,https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/,2025-04-18T12:49:16.4198624
+sort-characters-by-frequency,451,Sort Characters By Frequency,https://leetcode.com/problems/sort-characters-by-frequency/,2025-04-18T12:49:27.4264191
+find-subtree-sizes-after-changes,3576,Find Subtree Sizes After Changes,https://leetcode.com/problems/find-subtree-sizes-after-changes/,2025-04-18T12:50:11.5191546
+lexicographically-smallest-palindrome,2816,Lexicographically Smallest Palindrome,https://leetcode.com/problems/lexicographically-smallest-palindrome/,2025-04-18T12:50:16.3472876
