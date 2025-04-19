@@ -16,11 +16,11 @@ The solution generated is then submitted to leetcode.
    LEETCODE_SESSION
    GEMINI_API_KEY
    ```
-4. Add .txt files
+4. Create a folder and add .txt files
    ```
    e.g.
-   src/main/java/org/example/solved_problems.txt
-   src/main/java/org/example/unsolved_problems.txt
+   src/main/java/org/example/problems/solved_problems.txt
+   src/main/java/org/example/problems/unsolved_problems.txt
    ```
 
 ## Getting Started
