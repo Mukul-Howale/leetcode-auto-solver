@@ -12,8 +12,8 @@ public class SolutionStorageManager {
      * @param isAccepted Whether the solution was accepted by LeetCode
      */
     public static void storeSolution(LeetCodeQuestion question, boolean isAccepted) throws IOException {
-        String solvedFile = "solved_problems.txt";
-        String unSolvedFile = "unsolved_problems.txt";
+        String solvedFile = "src/main/java/org/example/problems/solved_problems.txt";
+        String unSolvedFile = "src/main/java/org/example/problems/unsolved_problems.txt";
 
         // Only add to solved problems list if accepted
         if (isAccepted) saveProblem(question, solvedFile);
