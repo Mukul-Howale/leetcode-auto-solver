@@ -9,7 +9,9 @@ The solution generated is then submitted to leetcode.
 ## Requirement
 1. Build Tool - Maven
 2. Create .env file at the root of the project
+   ```
    e.g. D:\leetcode-auto-solver\.env
+   ```
 3. Add the following variables to the .env file
    ```
    X_CSRF_TOKEN
