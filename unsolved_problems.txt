@@ -71,3 +71,4 @@ lexicographically-smallest-palindrome,2816,Lexicographically Smallest Palindrome
 knight-dialer,972,Knight Dialer,https://leetcode.com/problems/knight-dialer/,2025-04-18T16:47:26.9327726
 minimum-time-to-visit-disappearing-nodes,3389,Minimum Time to Visit Disappearing Nodes,https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/,2025-04-18T16:47:45.0265452
 subarrays-distinct-element-sum-of-squares-i,3163,Subarrays Distinct Element Sum of Squares I,https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/,2025-04-18T16:47:54.7433402
+find-the-longest-equal-subarray,2832,Find the Longest Equal Subarray,https://leetcode.com/problems/find-the-longest-equal-subarray/,2025-04-19T08:59:06.8027688

@@ -37,5 +37,5 @@ build/
 ### Mac OS ###
 .DS_Store
 .env
-src/main/java/org/example/solved_problems.txt
-src/main/java/org/example/unsolved_problems.txt
+solved_problems.txt
+unsolved_problems.txt

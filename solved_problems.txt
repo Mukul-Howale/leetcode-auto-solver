@@ -111,3 +111,6 @@ length-of-the-longest-alphabetical-continuous-substring,2492,Length of the Longe
 maximum-binary-string-after-change,1804,Maximum Binary String After Change,https://leetcode.com/problems/maximum-binary-string-after-change/,2025-04-18T12:49:45.6741102
 maximum-number-of-removable-characters,2027,Maximum Number of Removable Characters,https://leetcode.com/problems/maximum-number-of-removable-characters/,2025-04-18T12:49:54.8994996
 combination-sum-iii,216,Combination Sum III,https://leetcode.com/problems/combination-sum-iii/,2025-04-18T16:47:21.0164608
+reachable-nodes-with-restrictions,2445,Reachable Nodes With Restrictions,https://leetcode.com/problems/reachable-nodes-with-restrictions/,2025-04-19T08:59:17.5657258
+maximum-xor-after-operations,2402,Maximum XOR After Operations ,https://leetcode.com/problems/maximum-xor-after-operations/,2025-04-19T08:59:23.8465995
+longest-non-decreasing-subarray-from-two-arrays,2869,Longest Non-decreasing Subarray From Two Arrays,https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/,2025-04-19T08:59:38.3344254
