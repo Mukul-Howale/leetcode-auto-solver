@@ -68,7 +68,6 @@ public class LeetCodeSolutionVerifier {
         payload.put("lang", language);
         payload.put("question_id", questionId);
         payload.put("typed_code", code);
-
         RequestBody body = RequestBody.create(payload.toString(), MediaType.parse("application/json"));
 
         Request request = new Request.Builder()
